@@ -11,7 +11,7 @@
   <meta name="keywords" content="HTML,code,tags" />
   <meta name="author" content="Dann Albright" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="register.css" />
+  <link rel="stylesheet" href="login.css" />
   <link
     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     rel="stylesheet"
@@ -26,7 +26,7 @@
 <body>
   <div class="top">
     <div id="pic">
-      <h1>Fly Sky</h1>
+      <h1>Fly High</h1>
     </div>
     <div class="language">
       <i class="bx bx-globe"></i>
@@ -39,27 +39,28 @@
 
   <div class="wrapper">
     <form action="">
-      <h1 data-en="SIGN UP" data-vi="ĐĂNG KÝ">SIGN UP</h1>
+      <h1 data-en="LOGIN" data-vi="ĐĂNG NHẬP">LOGIN</h1>
       <div class="input-box">
         <input type="text" placeholder="Username" data-en="Username" data-vi="Tên đăng nhập" required />
         <i class="bx bxs-user"></i>
       </div>
-
       <div class="input-box">
         <input type="password" placeholder="Password" data-en="Password" data-vi="Mật khẩu" required />
         <i class="bx bxs-lock-alt"></i>
       </div>
-
-      <div class="input-box">
-        <input type="password" placeholder="Confirm password" data-en="Confirm password" data-vi="Xác nhận mật khẩu" required />
-        <i class="bx bxs-lock-alt"></i>
+      <div class="remember-forgot">
+        <label>
+          <input type="checkbox" />
+          <span data-en="Remember me" data-vi="Ghi nhớ đăng nhập">Remember me</span>
+        </label>
+        <b><a href="#">|</a></b>
+        <b><a href="#" data-en="Forgot password?" data-vi="Quên mật khẩu?">Forgot password?</a></b>
       </div>
-
-      <button type="submit" class="btn" data-en="Sign up" data-vi="Đăng ký">Sign up</button>
+      <button type="submit" class="btn" data-en="Login" data-vi="Đăng nhập">Login</button>
       <div class="register-link">
         <p>
-          <span data-en="Have an account?" data-vi="Đã có tài khoản?"></span>
-          <a href="login.html" data-en="Login" data-vi="Đăng nhập">Login</a>
+          <span data-en="Don't have an account?" data-vi="Chưa có tài khoản?">Don't have an account?</span>
+          <a href="register.html" data-en="Register" data-vi="Đăng ký">Register</a>
         </p>
       </div>
     </form>
@@ -67,4 +68,3 @@
   <script src="login.js"></script>
 </body>
 </html>
-
